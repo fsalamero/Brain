@@ -7,8 +7,8 @@ import sys
 
 
 directorio_actual = os.path.dirname(os.path.abspath(__file__))
-os.chdir(os.path.join(directorio_actual, 'brain'))
-sys.path.insert(0, os.path.join(directorio_actual, 'brain'))
+os.chdir(os.path.join(directorio_actual, 'Drawing Run'))
+sys.path.insert(0, os.path.join(directorio_actual, 'Drawing Run'))
 
 
 import ejecutar

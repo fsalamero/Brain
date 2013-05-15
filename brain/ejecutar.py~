@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+
+import pilas
+import brain
+
+ALTO = 720
+ANCHO = 1280
+
+fullscreen = True
+
+pilas.iniciar(titulo='Brain', ancho=ANCHO, alto=ALTO, pantalla_completa=True)
+
+pilas.cambiar_escena(brain.EscenaEscaparate())
+
+pilas.ejecutar()
